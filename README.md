@@ -12,7 +12,8 @@ This project showcases:
 
 ## 🌐 Live Demo
 
-👉 [Try it Live](https://samidhachari.github.io/software-simulated-RTOS/)  
+👉 [Try it Live](https://samidhachari.github.io/software-simulated-RTOS/) 
+http://localhost:5175/software-simulated-RTOS/
 Built using Vite + React + D3.js
 
 ## 📂 Features
