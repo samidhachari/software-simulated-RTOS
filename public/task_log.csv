@@ -1,0 +1,35 @@
+Tick,Type,Task ID,Task Name,Description,State
+1,TASK,1,Task B,Started Execution,RUNNING
+1,TASK,1,Task B,Waiting for event,WAITING_EVENT
+2,TASK,2,Task C,Started Execution,RUNNING
+2,TASK,2,Task C,Delayed,DELAYED
+3,TASK,0,Task A,Started Execution,RUNNING
+3,TASK,0,Task A,Delayed,DELAYED
+4,TASK,2,Task C,Started Execution,RUNNING
+4,TASK,2,Task C,Entering SLEEP mode,SLEEP
+5,TASK,0,Task A,Started Execution,RUNNING
+5,TASK,0,Task A,Delayed,DELAYED
+5,EVENT,-1,SYSTEM,External Event Triggered,INTERRUPTED
+6,TASK,1,Task B,Started Execution,RUNNING
+6,TASK,1,Task B,Waiting for event,WAITING_EVENT
+7,TASK,1,Task B,Started Execution,RUNNING
+7,TASK,1,Task B,Waiting for event,WAITING_EVENT
+8,TASK,1,Task B,Started Execution,RUNNING
+8,TASK,1,Task B,Waiting for event,WAITING_EVENT
+9,TASK,1,Task B,Started Execution,RUNNING
+9,TASK,1,Task B,Waiting for event,WAITING_EVENT
+10,TASK,1,Task B,Started Execution,RUNNING
+10,TASK,1,Task B,Waiting for event,WAITING_EVENT
+11,TASK,1,Task B,Started Execution,RUNNING
+11,TASK,1,Task B,Waiting for event,WAITING_EVENT
+12,TASK,1,Task B,Started Execution,RUNNING
+12,TASK,1,Task B,Waiting for event,WAITING_EVENT
+13,TASK,1,Task B,Started Execution,RUNNING
+13,FAULT,1,Task B,Stack Overflow Detected,RUNNING
+13,TASK,1,Task B,Waiting for event,WAITING_EVENT
+14,TASK,1,Task B,Started Execution,RUNNING
+14,FAULT,1,Task B,Stack Overflow Detected,RUNNING
+14,TASK,1,Task B,Waiting for event,WAITING_EVENT
+15,TASK,1,Task B,Started Execution,RUNNING
+15,FAULT,1,Task B,Stack Overflow Detected,RUNNING
+15,TASK,1,Task B,Waiting for event,WAITING_EVENT
